@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>rubberduck</id>
+    <title>Rubberduck</title>
+    <version>1.22</version>
+    <authors>Mathieu Guindon, Christopher McClellan</authors>
+    <owners>Philip Wales</owners>
+    <summary>VBE add-in for unit-testing and other features.</summary>
+    <description>Rubberduck is an add-in for the Microsoft Office Visual Basic Applications (VBA) editor (VBE).
+	It features a Unit-Testing framework, a Code Explorer, Code Inspections and a TODO: item list, </description>
+    <projectUrl>https://github.com/retailcoder/Rubberduck/releases</projectUrl>
+    <tags>rubberduck admin</tags>
+    <copyright>GPLv3</copyright>
+    <licenseUrl>https://github.com/retailcoder/Rubberduck/blob/master/license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <<iconUrl>https://camo.githubusercontent.com/95e9fbf01c8820ce762aadf56a7c002005e59a72/687474703a2f2f692e737461636b2e696d6775722e636f6d2f7461494d672e706e67</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
