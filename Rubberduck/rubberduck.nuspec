@@ -4,7 +4,7 @@
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>rubberduck</id>
-    <title>Rubberduck (Install)</title>
+    <title>rubberduck</title>
     <version>1.4.3</version>
     <authors>Mathieu Guindon, Christopher McClellan</authors>
     <owners>cheezsteak</owners>
