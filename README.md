@@ -14,7 +14,7 @@ Chocolatey package for Rubberduck
     `PS> choco install rubberduck -s $pwd`
 ```
   - Uninstall rubberduck with `choco uninstall rubberduck`
-Eventually I will push this to chocolately and then you can just use
+  - Eventually I will push this to chocolately and then you can just use
 ```
     PS> choco install rubberduck
 ```
