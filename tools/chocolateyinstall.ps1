@@ -11,7 +11,8 @@ $packageArgs = @{
   fileType      = 'exe' #only one of these: exe, msi, msu
   url           = $url
   url64bit      = $url64
-  registryUninstallerKey = 'Rubberduck' #ensure this is the value in the registry
+  registryUninstallerKey = '{979AFF96-DD9E-4FC2-802D-9E0C36A60D09}_is1' #ensure this is the value in the registry
+  silentArgs = "/VERYSILENT"
 }
 
 Install-ChocolateyPackage @packageArgs
