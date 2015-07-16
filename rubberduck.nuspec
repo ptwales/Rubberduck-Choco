@@ -10,13 +10,7 @@
     <owners>cheezsteak</owners>
     <summary>VBE add-in for unit-testing and other features.</summary>
     <description>Rubberduck is an add-in for the Microsoft Office Visual Basic Applications (VBA) editor (VBE).
-	It features a Unit-Testing framework, a Code Explorer, Code Inspections and a TODO: item list. 
-
-
-**Please Note**: This is an automatically updated package. If you find it is 
-out of date by more than a day or two, please contact the maintainer(s) and
-let them know the package is no longer updating correctly.
-
+	It features a Unit-Testing framework, a Code Explorer, Code Inspections and a TODO: item list.
     </description>
     <projectUrl>https://github.com/retailcoder/Rubberduck/releases</projectUrl>
     <packageSourceUrl>https://github.com/rubberduck-vba/Rubberduck/releases</packageSourceUrl>
