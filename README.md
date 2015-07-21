@@ -7,7 +7,7 @@ Chocolatey package for Rubberduck
   - Clone this repo
   - Inside the cloned repo, build the package 
 ```
-    PS> cpack
+    PS> choco pack
 ```
   - Install the local package
 ```
