@@ -14,7 +14,7 @@
     </description>
     <releaseNotes>https://github.com/rubberduck-vba/Rubberduck/releases</releaseNotes>
     <projectUrl>https://github.com/retailcoder/Rubberduck/releases</projectUrl>
-    <packageSourceUrl>https://github.com/rubberduck-vba/Rubberduck/releases</packageSourceUrl>
+    <packageSourceUrl>https://github.com/ptwales/Rubberduck-Choco</packageSourceUrl>
     <projectSourceUrl>https://github.com/rubberduck-vba/Rubberduck</projectSourceUrl>
     <docsUrl>https://github.com/rubberduck-vba/Rubberduck/wiki</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
