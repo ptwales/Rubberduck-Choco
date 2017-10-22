@@ -1,20 +1,18 @@
 # Rubberduck-Choco
-Chocolatey package for Rubberduck
-  - Have Chocolatey installed
-```
-    PS> iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1')) 
-```
-  - Clone this repo
-  - Inside the cloned repo, build the package 
-```
-    PS> choco pack
-```
-  - Install the local package
-```
-    PS> choco install rubberduck -s $pwd
-```
-  - Uninstall rubberduck with `choco uninstall rubberduck`
-  - Eventually I will push this to chocolately and then you can just use
+
+Chocolatey package for Rubberduck.  It's on the chocolately repo now so if you
+have [chocolatey installed](https://chocolatey.org/install) already run in
+powershell,
+
 ```
     PS> choco install rubberduck
+```
+
+## Packaging yourself
+Clone the repo then package and install
+```
+    PS> git clone https://github.com/ptwales/Rubberduck-Choco
+    PS> cd Rubberduck-Choco
+    PS> choco pack
+    PS> choco install rubberduck -s $pwd
 ```
