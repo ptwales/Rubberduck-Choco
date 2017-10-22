@@ -2,7 +2,8 @@
 
 $packageName = 'rubberduck' # arbitrary name for the package, used in messages
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://github.com/rubberduck-vba/Rubberduck/releases/download/v1.4.3/Rubberduck.Setup.1.4.3.0.exe' # download url
+$version = '2.1.0'
+$url = "https://github.com/rubberduck-vba/Rubberduck/releases/download/v$version/Rubberduck.Setup.$version.exe"
 $url64 = $url # 64bit URL here or remove - if installer is both, use $url
 
 $packageArgs = @{
