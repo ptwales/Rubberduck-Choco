@@ -16,3 +16,7 @@ Clone the repo then package and install
     PS> choco pack
     PS> choco install rubberduck -s $pwd
 ```
+# SOMEONE CLAIM ME
+
+I'm leaving this repo orphaned since I haven't used rubberduck in over a year
+and barely touch windows devices any more.
